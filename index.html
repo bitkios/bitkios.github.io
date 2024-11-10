@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,400&display=swap" rel="stylesheet">
+    <title>bitkios.XYZ</title>
+    <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
+</head>
+<body>
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: "DM Mono", serif;
+            font-weight: 400;
+            font-style: normal;
+            line-height: 1.5;
+        }
+        html {
+            font-size: 16px;
+        }
+        body, section {
+            width: 100%;
+            margin: 0;
+            background-color: whitesmoke;
+        }
+        body {
+            padding: 0;
+        }
+        section, flex-hz {
+            display: flex;
+            flex-wrap: nowrap;
+        }
+        section {
+            flex-direction: column;
+            gap: 0;
+            padding: 2rem;
+            height: 100vh;
+        }
+        flex-hz {
+            flex-direction: row;
+            gap: 1rem;
+        }
+        img, h1 {
+            display: block;
+            margin: 0;
+            padding: 0;
+        }
+        img {
+            width: 3rem;
+            height: 3rem;
+        }
+        footer {
+            text-align: center;
+        }
+        h1 {
+            font-size: 2rem;
+            font-weight: 500;
+        }
+        span, i, a {
+            display: inline;
+            margin: auto 0;
+            font-size: 1rem;
+            color: black;
+            text-decoration: none;
+        }
+        a {
+            cursor: pointer;
+        }
+        a:hover {
+            color: #573EC4;
+            font-weight: 500;
+        }
+        hr {
+            display: block;
+            margin: 1rem 0;
+            border: none;
+            border-bottom: solid 1px black;
+        }
+        flex-space {
+            flex: 1 1 auto;
+        }
+        @media only screen and (max-width: 560px) {
+            section {
+                padding: 1rem;
+            }
+        }
+    </style>
+
+    <section>
+        <flex-hz>
+            <img src="./favicon.png" alt="">
+            <h1>bitkios.xyz</h1>
+        </flex-hz>
+
+        <hr>
+        <span>~ buy stuff with crypto ~</span>
+        <hr>
+
+        <span>coming soon.</span>
+        <flex-space></flex-space>
+        <footer>
+            <a href="https://x.com/bitkiosXYZ" target="_blank" rel="noopener noreferrer">@bitkiosXYZ</a>
+            <span>|</span>
+            <a href="mailto:info@bitkios.xyz">info@bitkios.xyz</a>
+        </footer>
+    </section>
+    
+</body>
+</html>
